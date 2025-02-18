@@ -1,0 +1,18 @@
+import java.io.*;
+class exceptionhandling {
+    public static void main (String[] args)
+     {
+        String s = null;
+        try{ 
+            if (s.equals("gfg"))
+                System.out.println("same");
+                else
+                system.out.println("not same");
+        }
+        catch(Nullpointerexception e);
+        {
+            system.out.println("Nullpointerexception caught ");
+
+        }
+        }
+    }

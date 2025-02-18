@@ -1,0 +1,66 @@
+public class binarysearchtree{
+    public static void main(string[]args){
+        int data;
+        node left,right;
+        public node(int data){
+            this.data=data;
+            left=right=null;
+
+        }
+    }
+
+    public class binarysearchtree{
+        public static void main(string[]args)
+           node root;
+        Binarytree(){
+            root=null;
+        }
+    
+    node insert(node node,int data)
+    if(node==null){
+        node=new node(data);
+        return node;
+
+    } 
+    if(data<node.data){
+        node.left=insert(node.left,data);
+    }
+    else if(data> node.data){
+        node.right=insert(node.right,data);
+
+    }
+    return node;
+
+    }   
+}
+class Binarytree{
+    void inorderTraversal(node node);
+    if node=null;{
+        inorderTraversal(node.left);
+        system.out.print(node.data+"");
+        inorderTraversal(node.right);
+
+    }
+}
+public static void main(string[] args){
+    Binarytree tree =new Binary(tree.root,data:500);
+    tree.insert(tree.root,data:300);
+    tree.insert(tree.root,data:200);
+    tree.insert(tree.root,data:400);
+    tree.insert(tree.root,data:700);
+    tree.insert(tree.root,data:600);
+
+    system.out.println("inorder traversal of the tree");
+    tree.inordertraversal.traversal(tree.root);
+
+    system.out.println("postorder traversal of the tree");
+    tree.postordertraversal.traversal(tree.root);
+
+    system.out.println(" preorder traversal of the tree");
+    tree.preordertraversal.traversal(tree.root);
+
+    system.out.println("search for node with value 400");
+    node result =tree.search(tree.root,key:400);
+    if(result !=null)
+
+}
